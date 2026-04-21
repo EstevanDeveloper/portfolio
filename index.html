@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenanPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+        <main id="inicio" class="cabecalho">
+                
+                    <img src="Minha_foto.jpeg" alt="minha foto" class="minhaFoto">
+                    <h1>Renan Estevan</h1>
+                    <p class="cabecalho-sub-titulo">Aprendendo a fazer grandes mudanças</p>
+           
+        </main>
+                <section id="sobre" class="sobre">
+                    <h2 class="sobre-titulo">Sobre Mim</h2>
+                    <div class="sobre-caixa">
+                        <p class="sobre-paragrafo">
+                            Texto explicando sobre a minha pessoa.
+                             Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Minus temporibus aliquam
+                               quas laboriosam nobis, minima quisquam nulla
+                                a optio illo, ex voluptatem, tenetur quasi
+                                 qui illum eos impedit quis ipsam!
+                        </p>
+                    </div>
+                </section>
+                <section id="projetos" class="projetos">
+                     <h2 class="projetos-titulo">Meus Projetos</h2>
+                     <div class="projetos-caixa">
+
+                        <div class="projetos-card">
+                            <img src="pacoteOffice.jpeg" alt="pacote office" class="projetos-imagem">
+                            <div class="caixa-textos-projetos">
+                                <h3 class="info-projeto">Projetos com o pacote office</h3>
+                                <p class="paragrafo-projeto">Projetos realizados usando word, excel e power point</p>
+                            </div>
+                        </div>
+
+                        <div class="projetos-card">
+                            <img src="ProjetosCodigo.jpeg" alt="projetos de programação" class="projetos-imagem">
+                            <div class="caixa-textos-projetos">
+                                <h3 class="info-projeto">Programação e desenvolvimento</h3>
+                                <p class="paragrafo-projeto">projetos de programação e desenvolvimento web</p>
+                            </div>
+                        </div>
+                        
+
+                        <!--<div class="projetos-card">
+                            <img src="certificados.jpeg" alt="certificados" class="projetos-imagem">
+                            <div class="caixa-textos-projetos">
+                                <h3 class="info-projeto">Certificados</h3>
+                                <p class="paragrafo-projeto">meus certificados</p>
+                            </div>
+                        </div>-->
+
+                     </div>
+                </section>
+      
+
+<section id="certificados" class="certificados">
+    <h2 class="certificados-titulo">Certificados</h2>
+
+    <div class="carrossel">
+        <div class="carrossel-track">
+
+            <div class="certificado-card">
+                <img src="certificado-dio-ingles_page-0001.jpg" alt="Certificado 1">
+                <p>curso de inglês voltado para entrevistas internacionais</p>
+            </div>
+
+            <div class="certificado-card">
+                <img src="introduction-to-cybersecurity.png" alt="Certificado 3">
+                <p>Curso de introdução a cibersecurity oferecido pela cisco</p>
+            </div>
+
+            <div class="certificado-card">
+                <img src="certificado-dio-logica_page-0001.jpg" alt="Certificado 3">
+                <p>Curso de lógica de programação oferecido pela DIO</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+                <section id="contatos" class="contatos">
+                    <h2 class="contatos-titulo">contatos</h2>
+
+                    <div class="lista-contatos">
+    <a href="renan.estevan@yahoo.com" class="contato-item">
+        📧 Email
+    </a>
+
+    <a href="https://github.com/seu-usuario" target="_blank" class="contato-item">
+        💻 GitHub
+    </a>
+
+    <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="contato-item">
+        🔗 LinkedIn
+    </a>
+
+    <a href="https://wa.me/5511999999999" target="_blank" class="contato-item">
+        📱 WhatsApp: (11)98273-8487
+    </a>
+</div>
+                    
+                </section>
+
+        <script>
+            const nome = document.getElementById('nome')
+            const mensagem = document.getElementById('mensagem')
+            const telefone = '5511982738407'
+
+            const texto = `Olá! me chamo ${nome}, ${mensagem}`
+            const mesgFormatada = encodeURIComponent(texto)
+        </script>
+
+</body>
+</html>
+
+
+
+<!--<form class="formulario-contato" id="formulario">
+                        <div class="nome-form">
+                            <input type="text" name="nome" placeholder="nome" class="campo-form" id="nome" required>
+                        </div>
+                        <div class="grupo-form">
+                            <textarea name="mensagem" class="campo-form" placeholder="Digite sua mensagem" id="mensagem" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="botao-form">Enviar Whatsapp</button>
+                    </form>-->
